@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sap-bio-chem"
+version = "0.1.0"
+description = "Python OOP classes that deal with peaks, mz, windows, rt, etc."
+authors = ["LucasSapient <lucas.polidori@sapient.bio>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.1"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
