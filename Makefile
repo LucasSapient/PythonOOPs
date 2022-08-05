@@ -1,5 +1,5 @@
 POETRY_RUN := poetry run
-LINT_FOLDERS=tests scripts
+LINT_FOLDERS=scripts/tests scripts/scripts
 
 test:
 	@${POETRY_RUN} pytest ${LINT_FOLDERS} --doctest-modules
